@@ -18,7 +18,7 @@ int main()
     } 
     else
     { 
-      for ( X*(++Y) % N != 1);
+      for (; X*(++Y) % N != 1;);
       cout << Y;
     };
     return 0;
