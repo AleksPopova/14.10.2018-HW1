@@ -21,7 +21,7 @@ int main()
       length++;
     } 
     while (x != 0);
-    Y = sum/length;
+    Y = (float)sum/(float)length;
     cout << Y;
     return 0;
    }
