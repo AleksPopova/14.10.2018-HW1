@@ -14,11 +14,11 @@ int main()
     cin >> X >> N;
     if (gcd(X, N) != 1)
     {
-      cout << "None\n";  
+      cout << "None";  
     } 
     else
     { 
-      for (; X*(++Y) % N != 1;);
+      for ( X*(++Y) % N != 1);
       cout << Y;
     };
     return 0;
