@@ -22,7 +22,7 @@ int C(int a, int b)
   cin >> n >> k;
   if (k > n)
   {
-   cout << «nope»;
+   cout << "nope";
   }
   else
   {
