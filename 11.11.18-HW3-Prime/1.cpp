@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
    int n, m, t = 0;
-   cin » n;
+   cin >> n;
    m = (n % 10);
    while (n >= 1)
     {
@@ -18,5 +18,5 @@ int main()
        n /= 10;
        m= (n % 10);
     };
-   cout « t;
+   cout << t;
 }
