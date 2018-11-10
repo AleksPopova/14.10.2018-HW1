@@ -12,7 +12,7 @@ bool ch(int a)
 int main()
  {
   int x, b, c, d = 1;
-  cin » x;
+  cin >> x;
   b = (x % 10);
   c = b;
   while (x >= 1)
@@ -24,5 +24,5 @@ int main()
    x /= 10;
    c = (x % 10);
   };
-  cout « d;
+  cout << d;
  }
