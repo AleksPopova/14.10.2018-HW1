@@ -16,7 +16,7 @@ int h(int a, int b, int c, int d) {
 int main()
 {
   int N, M;
-  cin » N » M;
+  cin >> N >> M;
   bool **X;
  
   X = new bool *[M];
@@ -26,7 +26,7 @@ int main()
   
   for (int i = 0;i < M; i++) {
    for (int j = 0; j < N; j++) {
-    cin » X[j][i];
+    cin >> X[j][i];
    }
   }
   int Z = 999999999;
@@ -48,7 +48,7 @@ int main()
       }
   }
   
-  cout « Z;
+  cout << Z;
 
  
   for (int i = 0;i < M; i++) {
