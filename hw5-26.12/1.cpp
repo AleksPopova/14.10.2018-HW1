@@ -1,3 +1,7 @@
+/*
+Напишите программу, находящую k-ую порядковую статистику. 
+Программа должна работать за время O(n) в среднем.
+*/
 #include <iostream>	
 	using namespace std;
 	int par(int *A, int l, int r) {
