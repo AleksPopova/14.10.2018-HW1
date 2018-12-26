@@ -1,3 +1,6 @@
+/*
+Реализуйте решение непрерывной задачи о рюкзаке
+*/
 #include "pch.h"	
 	#include <iostream>
 	using namespace std;
